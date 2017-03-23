@@ -160,7 +160,6 @@ Content in the first column | Content in the second column
 ---
 
 ## <a name="section-i"></a>9) Practice Examples 
-
 #### Data Science Trivia 
 
 #### Q1.  
@@ -171,7 +170,7 @@ What is the most installed language in the world?
 - Spark
 - Javascript
 
->>REPLACE THIS TEXT WITH YOUR RESPONSE
+>> *Javascript*
 
 ***
 
@@ -184,7 +183,7 @@ What is the distribution of t-squared?
  * Beta
  * Bivariate Normal
 
->>REPLACE THIS TEXT WITH YOUR RESPONSE
+>> _F_
 
 ---
 
@@ -195,7 +194,7 @@ In the scikit-learn's official source repo, about how many issues are outstandin
 3. 700  
 4. 7000  
 
->>REPLACE THIS TEXT WITH YOUR RESPONSE
+>> **700**
 
 ---
 
