@@ -81,7 +81,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I probably will use the emacs terminal editor to begin with because I am most familiar with it (albeit still very unfamiliar). Still, I plan to explore other editors to determine which works best for me and my needs.
 
 --
 
@@ -89,6 +89,6 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I'm not quite sure yet which graphical editor I will use. This is new to me but I am intrigued by both emacs and sublime. Emacs seems like it could be the most useful once I learn the ins and outs of it, however, from what I've read sublime may be the most simple graphical editor for a beginner like me. I will continue to do more research on each type of editor to determine which is best for me!
 
  
