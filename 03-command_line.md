@@ -69,6 +69,6 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > Xargs is a command intended to execute arguments after accepting a standard input. For example, below it is used to split the output into 4 items per line:  `$echo a b c d e f g h i j k l m n o p q r s t u v w x y z | xargs -n 2`
+> > Xargs is a command intended to execute arguments after accepting a standard input. For example, below it is used to split the output (the alphabet) into 4 items per line:  `$echo a b c d e f g h i j k l m n o p q r s t u v w x y z | xargs -n 2`
  
 
