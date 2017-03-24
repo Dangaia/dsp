@@ -57,10 +57,10 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > 1. `ls -c`: displays files by file timestamp \
->> 2. `ls -F`: flags filenames \
->> 3. `ls -q`: displays all nonprinting characters as ? \
->> 4. `ls -r`: displays files in reverse order \
+> > 1. `ls -c`: displays files by file timestamp 
+>> 2. `ls -F`: flags filenames 
+>> 3. `ls -q`: displays all nonprinting characters as ? 
+>> 4. `ls -r`: displays files in reverse order 
 >> 5. `ls -1`: displays each entry on a line 
 
 ---
