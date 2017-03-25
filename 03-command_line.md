@@ -63,7 +63,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 >> 4. `ls -r`: displays files in reverse order 
 >> 5. `ls -1`: displays each entry on a line 
 
----
+--
 
 ### Q4.  Xargs   
 
