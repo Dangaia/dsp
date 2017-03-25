@@ -63,7 +63,7 @@ You can repeat the edit and commit process as many times as you like. You don't 
 
 Here's your first chance to practice this:
 
----
+--
 
 ### Q1. Emoji
 
