@@ -83,7 +83,7 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 >> I probably will use the emacs terminal editor to begin with because I am most familiar with it (albeit still very unfamiliar). Still, I plan to explore other editors to determine which works best for me and my needs.
 
---
+---
 
 ### Q3. Graphical Editor
 
