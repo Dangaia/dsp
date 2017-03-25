@@ -5,7 +5,7 @@ The Jupyter notebook is an interactive computational environment, in which you c
 
 It was formerly known as "IPython Notebook."  
 
----
+--
  
 ## :boom: Exercises :boom:
 
