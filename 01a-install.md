@@ -46,7 +46,7 @@ cross-platform.
 
 **Course material for the bootcamp is compatible with Python versions 2.7 and 3.0. Python 3 is recommended and encouraged.**  
 
-Did you install Python 2 or 3? Why?  
+Did you install Python 2 or 3? Why? 
 
 >> I installed Python 3 because that is what was recommended. Additionally, I had been using previously to learn Python and, thus, is what I am most familiar with. 
 
