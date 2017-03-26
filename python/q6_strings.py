@@ -4,16 +4,16 @@
 
 def donuts(count):
      if count < 10:
-             print(count)
+             return("Number of donuts:" count)
      elif count >= 10:
-             print('many')
+             return("Number of donuts: many")
 
 
 def both_ends(s):
      if len(s) >= 2: 
-             print(s[:2]+s[-2:])
+             return(s[:2]+s[-2:])
      else:
-             print('')
+             return('')
 
 
 def fix_start(s):
@@ -36,30 +36,16 @@ def fix_start(s):
 
 
 def mix_up(a, b):
-    """
-    Given strings a and b, return a single string with a and b
-    separated by a space '<a> <b>', except swap the first 2 chars of
-    each string. Assume a and b are length 2 or more.
-
-    >>> mix_up('mix', 'pod')
-    'pox mid'
-    >>> mix_up('dog', 'dinner')
-    'dig donner'
-    >>> mix_up('gnash', 'sport')
-    'spash gnort'
-    >>> mix_up('pezzy', 'firm')
-    'fizzy perm'
-    """
-    raise NotImplementedError
+	return(b[:2]+a[2:]+' '+a[:2]+b[2:])
 
 
 def verbings(s):
 	if len(s) >= 3 and s[-3:] != 'ing':
-		print(s+'ing')
+		return (s+'ing')
 	elif len(s) >=3 and s[-3:] == 'ing':
-		print(s+'ly')
+		return(s+'ly')
 	elif len(s) < 3:
-		print(s)
+		return(s)
 
 
 def not_bad(s):
