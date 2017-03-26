@@ -3,41 +3,17 @@
 
 
 def donuts(count):
-    """
-    Given an int count of a number of donuts, return a string of the
-    form 'Number of donuts: <count>', where <count> is the number
-    passed in. However, if the count is 10 or more, then use the word
-    'many' instead of the actual count.
-
-    >>> donuts(4)
-    'Number of donuts: 4'
-    >>> donuts(9)
-    'Number of donuts: 9'
-    >>> donuts(10)
-    'Number of donuts: many'
-    >>> donuts(99)
-    'Number of donuts: many'
-    """
-    raise NotImplementedError
+     if count < 10:
+             print(count)
+     elif count >= 10:
+             print('many')
 
 
 def both_ends(s):
-    """
-    Given a string s, return a string made of the first 2 and the last
-    2 chars of the original string, so 'spring' yields 'spng'.
-    However, if the string length is less than 2, return instead the
-    empty string.
-
-    >>> both_ends('spring')
-    'spng'
-    >>> both_ends('Hello')
-    'Helo'
-    >>> both_ends('a')
-    ''
-    >>> both_ends('xyz')
-    'xyyz'
-    """
-    raise NotImplementedError
+     if len(s) >= 2: 
+             print(s[:2]+s[-2:])
+     else:
+             print('')
 
 
 def fix_start(s):
@@ -77,21 +53,13 @@ def mix_up(a, b):
     raise NotImplementedError
 
 
-def verbing(s):
-    """
-    Given a string, if its length is at least 3, add 'ing' to its end.
-    Unless it already ends in 'ing', in which case add 'ly' instead.
-    If the string length is less than 3, leave it unchanged. Return
-    the resulting string.
-
-    >>> verbing('hail')
-    'hailing'
-    >>> verbing('swiming')
-    'swimingly'
-    >>> verbing('do')
-    'do'
-    """
-    raise NotImplementedError
+def verbings(s):
+	if len(s) >= 3 and s[-3:] != 'ing':
+		print(s+'ing')
+	elif len(s) >=3 and s[-3:] == 'ing':
+		print(s+'ly')
+	elif len(s) < 3:
+		print(s)
 
 
 def not_bad(s):
