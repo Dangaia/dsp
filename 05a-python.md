@@ -58,32 +58,36 @@ print(squares)
 
 **List Comprehension/Filter Example**
 *List Comprehension*
-`def f(x):
+```def f(x):
   return x % 2 == 0
 evens = [x for x in range(25) if f(x)]
 print(evens)
-[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24]`
+[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24]
+```
   
 *Filter*
-`def f(x):
+```def f(x):
   return x % 2 == 0 
 evens = filter(f, range(25))
 list(evens)
-[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24]`
+[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24]
+```
 
 >> Maps and filters both return list objects similar to a list comprehension. Maps, like list comprehensions, apply functions over iterables. Filters are similar to maps, and adds to the list any element for which the boolen returned true.
 
 **Set Comprehension Example**
 
-`set_comp = {x**2 for x in range(25)}
+```set_comp = {x**2 for x in range(25)}
 set_comp
-{0, 1, 256, 4, 9, 16, 144, 400, 529, 25, 289, 36, 169, 49, 441, 64, 576, 196, 324, 81, 225, 100, 484, 361, 121}`
+{0, 1, 256, 4, 9, 16, 144, 400, 529, 25, 289, 36, 169, 49, 441, 64, 576, 196, 324, 81, 225, 100, 484, 361, 121}
+```
 
 **Dictionary Comprehension Example**
 
 `dict_comp = {x: x**2 for x in range(25)}
 dict_comp
-{0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100, 11: 121, 12: 144, 13: 169, 14: 196, 15: 225, 16: 256, 17: 289, 18: 324, 19: 361, 20: 400, 21: 441, 22: 484, 23: 529, 24: 576}`
+{0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100, 11: 121, 12: 144, 13: 169, 14: 196, 15: 225, 16: 256, 17: 289, 18: 324, 19: 361, 20: 400, 21: 441, 22: 484, 23: 529, 24: 576}
+```
 
 ---
 
