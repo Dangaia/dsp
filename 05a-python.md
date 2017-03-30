@@ -31,9 +31,10 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 >> Lambda functions are small anonymous (i.e., without a name) functions that take any number of arguments but only a single expression. These functions can be used wherever an object is required. Lambda functions are used when a name less function is necessary for a short period of time. Below is an example of using the `lambda` function as the `key` argument in `sorted`. This example sorts even-numbered words after odd-numbered words.
 
-`new_list = ['i', 'am', 'the', 'best', 'of', 'all', 'time', 'forever', 'sheep', 'infinity'] <br />
-print(sorted(new_list, key = lambda word: len(word) %2 == 0)) <br />  
-['i', 'the', 'all', 'forever', 'sheep', 'am', 'best', 'of', 'time', 'infinity']`
+```new_list = ['i', 'am', 'the', 'best', 'of', 'all', 'time', 'forever', 'sheep', 'infinity']
+print(sorted(new_list, key = lambda word: len(word) %2 == 0))
+['i', 'the', 'all', 'forever', 'sheep', 'am', 'best', 'of', 'time', 'infinity']
+```
 
 ---
 
@@ -45,13 +46,15 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 **List Comprehension/Map Example**
 *List Comprehension*
-`squares = [x**2 for x in range(10)]
+```squares = [x**2 for x in range(10)]
 print(squares)
-[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]`
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+```
 
 *Map*
-`squares = [i for i in map(lambda x: x**2, range(10))]
-[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]`
+```squares = [i for i in map(lambda x: x**2, range(10))]
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+```
 
 **List Comprehension/Filter Example**
 *List Comprehension*
