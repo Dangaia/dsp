@@ -40,39 +40,30 @@ def verbings(s):
 
 
 def not_bad(s):
-    """
-    Given a string, find the first appearance of the substring 'not'
-    and 'bad'. If the 'bad' follows the 'not', replace the whole
-    'not'...'bad' substring with 'good'. Return the resulting string.
-    So 'This dinner is not that bad!' yields: 'This dinner is
-    good!'
-
-    >>> not_bad('This movie is not so bad')
-    'This movie is good'
-    >>> not_bad('This dinner is not that bad!')
-    'This dinner is good!'
-    >>> not_bad('This tea is not hot')
-    'This tea is not hot'
-    >>> not_bad("It's bad yet not")
-    "It's bad yet not"
-    """
-    raise NotImplementedError
+    not_index = s.find('not')
+    bad_index = s.find('bad')
+    if bad_index > not_index:
+        new_string = s[:not_index] + 'good' + s[(bad_index + 4):]
+    else:
+        new_string = s
+    return new_string
 
 
 def front_back(a, b):
-    """
-    Consider dividing a string into two halves. If the length is even,
-    the front and back halves are the same length. If the length is
-    odd, we'll say that the extra char goes in the front half. e.g.
-    'abcde', the front half is 'abc', the back half 'de'. Given 2
-    strings, a and b, return a string of the form a-front + b-front +
-    a-back + b-back
-
-    >>> front_back('abcd', 'xy')
-    'abxcdy'
-    >>> front_back('abcde', 'xyz')
-    'abcxydez'
-    >>> front_back('Kitten', 'Donut')
-    'KitDontenut'
-    """
-    raise NotImplementedError
+    half_a = int(len(a)/2)
+    half_b = int(len(b)/2)
+    half_a_one = int((half_a + 1))
+    half_b_one = int((half_b + 1))
+    if len(a) %2 == 0:
+        front_a = (a[:half_a])
+        back_a = (a[half_a:])
+    else:
+        front_a = (a[:(half_a + 1)])
+        back_a = (a[half_a_one:])
+    if len(b) %2 == 0:
+        front_b = (b[:half_b])
+        back_b = (b[half_b:])
+    else:
+        front_b = (b[:half_b_one])
+        back_b = (b[half_b_one:])
+    return front_a + front_b + back_a + back_b
