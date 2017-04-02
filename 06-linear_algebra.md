@@ -13,7 +13,7 @@ You should be familiar with the following concepts:
 * systems of linear equations
 * eigenvalues
 
-### Exercises  
+### Exercises
 
 There are matrix operations exercises in the [Matrix Algebra Worksheet](math/matrix_algebra_worksheet.pdf).  Print out the worksheet and complete the computations by hand.  You can check your work in Python.
 
