@@ -1,5 +1,12 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
+```
+from __future__ import print_function, division
+%matplotlib inline
+import numpy as np
+import nsfg
+import first
+import thinkstats2
 
 def CohenEffectSize(group1, group2):
        diff = group1.mean() - group2.mean()
@@ -10,4 +17,4 @@ def CohenEffectSize(group1, group2):
        d = diff / np.sqrt(pooled_var)
        return d
 
-CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
+CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)```
