@@ -88,14 +88,14 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 >> p = probability \
 >> M = Male \
 >> I = Identical \
->> F = Fraternal \
+>> F = Fraternal 
 
 >> **Bayesian Theorem** \
->> p(A|B) = (p(A)p(B|A))/p(B) \
+>> p(A|B) = (p(A)p(B|A))/p(B) 
 
 >> Thus, \
 >> p(I|M) = (p(I)p(M|I))/p(M) \
->> p(I|M) = ((1/300)(1/2))/(((1/125)(1/4))) + (((1/300)+(1/2))) \
+>> p(I|M) = ((1/300)(1/2))/(((1/125)(1/4))) + (((1/300)+(1/2))) 
 
 >> Thus, the probability that Elvis was an indentical twin is 0.4545 or 45.45%.
 
