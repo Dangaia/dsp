@@ -28,4 +28,7 @@ low = dist.cdf(177.8)
 high = dist.cdf(185.42)
 low, high, high-low
 # A: (0.48963902786483265, 0.83238586549630633, 0.34274683763147368)
+
+(high-low) * 100
+# A: 34.27% of the U.S. population falls within this range.
 ```
