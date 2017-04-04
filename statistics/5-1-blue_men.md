@@ -4,7 +4,7 @@
 from __future__ import print_function, division
 %matplotlib inline
 import numpy as np
-import nsfg
+import brfss
 import first
 import analytic
 import thinkstats2
