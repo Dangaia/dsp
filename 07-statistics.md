@@ -110,7 +110,7 @@ How do frequentist and Bayesian statistics compare?
 >> Prior - probability that hypothesis is true before data considered \
 >> Posterior - probability that hypothesis is true after data considered \
 >> Likelihood - evidence about hypothesis provided by the data \
->> Frequency - repeatable random sample \
+>> Frequency - repeatable random sample 
 
 **Bayesian** | **Frequentist**
 ---------- | -------------
