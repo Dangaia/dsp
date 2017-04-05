@@ -20,6 +20,27 @@ live = live.dropna(subset = ['agepreg', 'totalwgt_lb'])
 age = live.agepreg
 weight = live.totalwgt_lb
 
+def BinnedPercentiles(df):
+  
+    bins = np.arange(10, 48, 3)
+    indices = np.digitize(df.agepreg, bins)
+    groups = df.groupby(indices)
+
+    ages = [group.agepreg.mean() for i, group in groups][1:-1]
+    cdfs = [thinkstats2.Cdf(group.totalwgt_lb) for i, group in groups][1:-1]
+
+    thinkplot.PrePlot(3)
+    for percent in [75, 50, 25]:
+        weights = [cdf.Percentile(percent) for cdf in cdfs]
+        label = '%dth' % percent
+        thinkplot.Plot(ages, weights, label=label)
+
+    thinkplot.Config(xlabel="Mother's age (years)",
+                     ylabel='Birth weight (lbs)',
+                     xlim=[14, 45], legend=True)
+    
+BinnedPercentiles(live)
+
 def ScatterPlot(age, weight, alpha=1.0):
     thinkplot.Scatter(age, weight)
     thinkplot.Config(xlabel='Age (years)',
@@ -59,3 +80,8 @@ print('Pearson Correlation:', Correlation(ages, weights))
 print('Spearman Correlation:', Spearman_Correlation(ages, weights))
 
 ```
+
+>> *Scatterplot* - There appears to be no relationship between the variables \
+>> *Percentile Plot* - There is a non-linear relationship between the variables, however, the plot suggests a child's weight increases as the mother's age increases between certain ages \
+>> *Correlations* - Both correlations suggest a weak relationship between variables. The Spearman correlation being slightly higher than the Pearson Correlation suggests potential outliers or a nonlinear relationship
+>> *Pearson Correlation* - 
