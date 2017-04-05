@@ -40,7 +40,7 @@ Review the Jupyter Notebook [`1_pandas_jeopardy_example.ipynb`](python/pandas/1_
 * Update the header at the top by adding in your name and date.
 * Edit this notebook and complete the exercises.
 
----
+--- 
 
 ## Optional Pandas Topics:  To Explore Further
 
