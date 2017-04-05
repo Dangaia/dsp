@@ -105,7 +105,21 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 How do frequentist and Bayesian statistics compare?
 
 >> The heart of these methods lie in the meaning of probabilities. With that said, there are major differences between the two approaches. \
->> *Bayesian* - In Bayesian statistics probabilities are used for hypotheses and data.
+>> **Definitions** \
+>> Prior - probability that hypothesis is true before data considered
+>> Posterior - probability that hypothesis is true after data considered
+>> Likelihood - evidence about hypothesis provided by the data 
+>> Frequency - repeatable random sample
+
+**Bayesian** | **Frequentist**
+---------- | -------------
+Data observed from sample | There is a frequency
+Parameters are unknown | Parameters remain constant
+Parameters fixed | Data fixed
+Probabilities used for hypotheses and data | Probabilities never used for hypotheses
+Dependent on *prior* and *likehihood* of already observed data | Dependent on *likelihood* of both observed and unobserved data
+Must know or create *subjective prior* | No *prior* required
+Potentially better for modeling | Potentially better for evaluation
 
 ---
 
