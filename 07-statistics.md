@@ -104,12 +104,13 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> The heart of these methods lie in the meaning of probabilities. With that said, there are major differences between the two approaches. \
+>> The heart of these methods lie in the meaning of probabilities. With that said, there are major differences between the two approaches.
+
 >> **Definitions** \
->> Prior - probability that hypothesis is true before data considered
->> Posterior - probability that hypothesis is true after data considered
->> Likelihood - evidence about hypothesis provided by the data 
->> Frequency - repeatable random sample
+>> Prior - probability that hypothesis is true before data considered \
+>> Posterior - probability that hypothesis is true after data considered \
+>> Likelihood - evidence about hypothesis provided by the data \
+>> Frequency - repeatable random sample \
 
 **Bayesian** | **Frequentist**
 ---------- | -------------
