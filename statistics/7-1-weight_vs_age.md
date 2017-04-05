@@ -84,4 +84,3 @@ print('Spearman Correlation:', Spearman_Correlation(ages, weights))
 >> *Scatterplot* - There appears to be no relationship between the variables \
 >> *Percentile Plot* - There is a non-linear relationship between the variables, however, the plot suggests a child's weight increases as the mother's age increases between certain ages \
 >> *Correlations* - Both correlations suggest a weak relationship between variables. The Spearman correlation being slightly higher than the Pearson Correlation suggests potential outliers or a nonlinear relationship
->> *Pearson Correlation* - 
