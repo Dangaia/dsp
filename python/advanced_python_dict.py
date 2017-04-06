@@ -79,5 +79,5 @@ def new_professor_dict():
 				professor_dict[item] = [degrees, titles, emails]
 	return professor_dict
 
-for key, value in sorted(new_prof().items(), key = lambda k: k[0][1])[:3]:
+for key, value in sorted(new_prof().items(), key = lambda k: k[0][1]):
 	print (key, value)
